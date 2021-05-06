@@ -1,0 +1,16 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.casilla {
+    border: 2px solid black;
+    width: 500px;
+    height: 30px;
+     /* em medida se multiplica su tamaño por 30 su tamaño original para texto, rem se usa en textos tambien funciona igual que el em, puede afectar desde la raiz principal
+     vh medida virtual viewport height virtualizar el primer valor para sacar de ahi como convertir los pixeles ejemplo: 750vh cada pixel seria 7.5 */
+}
+
+.historial {
+    color: cadetblue;
+}
