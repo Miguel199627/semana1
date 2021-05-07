@@ -62,6 +62,10 @@ const addLetNumSim = (valor) => {
     casilla.innerHTML += valor;
 };
 
+const btnBorrarf = () => {
+    casilla.innerHTML = casilla.innerHTML.substring(0, casilla.innerHTML.length - 1);
+};
+
 
 // Oncliks
 btnPleca.onclick = () => addLetNumSim("|");
@@ -118,3 +122,7 @@ btnPunto.onclick = () => addLetNumSim(".");
 btnGuion.onclick = () => addLetNumSim("-");
 
 btnEspacio.onclick = () => addLetNumSim(" ");
+
+btnBorrar.onclick = () => btnBorrarf();
+
+btnEnter.onclick = () => addLetNumSim("<br>");
